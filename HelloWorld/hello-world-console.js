@@ -1,6 +1,6 @@
 /**
  * @Author Takudzwa Frank Mukarakate
- *
+ * @Version 1.0.0
  * Traditional introductory "Hello World!" console script
  * Outputs Hello World with various methods.
  */
@@ -9,7 +9,7 @@
 console.log("Hello World!");
 
 // String variable
-var helloText = "Hello World!";
+let helloText = "Hello World!";
 console.log("Variable: " + helloText);
 
 // String constant
