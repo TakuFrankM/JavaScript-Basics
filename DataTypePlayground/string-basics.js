@@ -4,3 +4,8 @@
  * Basic console string manipulation playground
  */
 
+// Assigning and playing around
+
+// Template Literals
+
+// String format
