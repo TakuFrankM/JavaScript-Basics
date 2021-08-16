@@ -1,10 +1,12 @@
 /**
  * @Author Takudzwa Frank Mukarakate
  * @Version 1.0.0
- * Introduction to simple JS objects
+ *
+ * Introduction to simple JS objects (similar to python dictionaries i.e. Key/Value pairs)
+ *
  */
 
-// Creating a simple object
+// Creating a simple person object
 let person = {
     first_name: "First",
     middle_name: "Middle",
@@ -27,3 +29,20 @@ console.log(person['work years']);
 // Property name from string variable
 let propName = "date_of_birth";
 console.log(person[propName]);
+
+// Object with object properties
+// Simple school subject with a teacher
+let subject = {
+    name: "Introduction to JavaScript",
+    code: "JS101",
+    teacher: person,
+    students: []
+}
+
+// Outputs all information
+console.log(subject);
+
+// "?" property output: Avoids error when undefined
+subject.teacher.middle_name = undefined;
+console.log(subject.teacher.middle_name?.length)
+
